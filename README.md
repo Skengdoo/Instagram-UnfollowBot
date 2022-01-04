@@ -53,3 +53,16 @@ python main.py -u USERNAME -p PASSWORD -o super-unfollow
 python main.py -u USERNAME -p PASSWORD -o unfollow-all
 ```
 **NOTE**: Fill "whitelist.txt" file with the accounts you will never want to unfollow
+
+
+
+# [ Requirements ]
+requests==2.20.0
+requests_toolbelt==0.8.0
+- if you dont know how to install these simply go into cmd run as admin 
+
+pip install requests==2.20.0
+pip install requests_toolbelt==0.8.0
+
+
+make sure you cd into the specific folder when running this if you have any questions contact me via discord this#8309
