@@ -1,7 +1,7 @@
 # Instagram-UnfollowBot
 Basic Python code allowing you to unfollow them annoying people and just get rid of all those accounts you don't pay attention to this tool has many other features 
 
-Functionality: 
+Program Functionality: 
 
 - **Info**: Show report
 
@@ -11,20 +11,20 @@ Functionality:
 
 ---------------------
 
-## Usage: 
+## Commands Usage: 
 
-**Show report (who follows, unfollows, follows you back):**
+**Shows data report for (who follows you, who has unfollowed you, follows you back):**
 ```
 python main.py -u USERNAME -p PASSWORD -o info
 ```
 
-**Follow users using the tag you introduce:**
+**Follow users who post with a certain hashtag:**
 
 ```
-python main.py -u USERNAME -p PASSWORD -o follow-tag -t TAG
+python main.py -u USERNAME -p PASSWORD -o follow-tag -t TAG (example - follow4follow)
 ```
 
-**Follow users from a location:**
+**Follow users from a specific location or region:**
 
 ```
 python main.py -u USERNAME -p PASSWORD -o follow-location -t LOCATION_ID
